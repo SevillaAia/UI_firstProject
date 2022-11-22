@@ -1,0 +1,89 @@
+.mission {
+    width: 100%;
+    height: auto;
+    background-color: $primary;
+    text-align: right;
+    color: $tertiary;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+    .mission2 {
+        width: $big;
+        height: auto;
+        padding: 2rem 3rem;
+        transition: all 1s;
+        
+       
+
+        .missionHeader {
+            border-bottom: $line1;
+        }
+
+
+        p {
+            padding-top: 2rem;
+        }
+        
+        h3 {
+
+            font-size: 2.5rem;
+            font-weight: $bold;
+            color: $light;
+        }
+
+        h2 {
+
+            font-size: $font-big;
+            font-weight: $bold;
+        }
+    }
+}
+
+@media (min-width:$breakpoint-pc) {
+
+    .mission {
+        width: 100%;
+        height: auto;
+        background-color: $primary;
+        text-align: right;
+        color: $tertiary;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    
+        .mission2 {
+            width: 100%;
+            height: auto;
+            padding: 2rem 3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+           
+    
+            .missionHeader {
+                border-right: $line1;
+                border-bottom: none;
+                padding: 10rem 4rem;
+                width: $big;
+                height: $big;
+            }
+
+            .missionPhar {
+                width: $big;
+                height: $big;
+                text-align: left;
+                padding: 4rem;
+            }
+    
+    
+        }
+
+    }
+}

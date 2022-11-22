@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  background-color: #262b40;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #262b40;
+  border-bottom: 3px solid #fff;
+  width: 100%;
+  height: 8rem;
+}
+nav .title {
+  color: #ffd500;
+  font-size: 4rem;
+  font-weight: 800;
+}
+nav .nav-btn {
+  background-color: #ffd500;
+}
+
+.banner {
+  width: 80%;
+  height: auto;
+  padding-top: 13rem;
+  display: block;
+  margin: 0 auto;
+}
+.banner .container1 {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.banner .bnr-img {
+  background: url(/images/banner_img.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 40rem;
+  height: 40rem;
+  flex-grow: 1;
+}
+.banner .bnr-ctn {
+  background-color: #ffd500;
+  width: 40rem;
+  height: 40rem;
+  color: #262b40;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.banner .bnr-ctn h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+.banner .bnr-ctn a {
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  background-color: #262b40;
+  color: #fff;
+}
+.banner .bnr-ctn a:hover {
+  background-color: #fff;
+  color: #262b40;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  padding: 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards .card-ctn {
+  text-align: center;
+  width: 40rem;
+  color: #b8bedd;
+  padding: 3rem;
+  margin: 2rem;
+}
+.cards .card-ctn h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  padding: 2rem;
+}
+.cards .card-ctn img {
+  width: 100px;
+  height: 100px;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  background-color: #ffd500;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.content .container {
+  width: 80rem;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 6rem 0;
+}
+.content .container .img_1 {
+  background: url(/images/smoothie.jpg);
+  height: 40rem;
+  width: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  order: 1;
+}
+.content .container .ecoWares {
+  background-color: #262b40;
+  width: 40rem;
+  height: 40rem;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
+  order: 1;
+}
+.content .container .ecoWares ol {
+  padding: 6rem;
+}
+.content .container .img_2 {
+  background: url(/images/salad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40rem;
+  width: 40rem;
+  order: 3;
+}
+.content .container .Rrules {
+  background-color: #fff;
+  width: 40rem;
+  min-height: auto;
+  padding: 1rem 2rem;
+  color: #262b40;
+  order: 2;
+}
+.content .container .Rrules h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  border-bottom: 6px solid #ffd500;
+  padding: 2rem 0 2rem 0rem;
+}
+.content .container .Rrules p {
+  padding: 1rem 0;
+}
+.content .container .Rrules a {
+  color: #262b40;
+  text-decoration: none;
+}
+.content .container .Rrules a:hover {
+  background-color: #262b40;
+  padding: 1rem 3rem;
+  color: #fff;
+}
+
+.hazard {
+  width: 100%;
+  height: 8rem;
+  background-color: black;
+}
+
+.restaurant {
+  background-color: #ffd500;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5rem 0;
+  font-style: italic;
+}
+.restaurant h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #262b40;
+}
+.restaurant .container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.restaurant .container .restoList {
+  background-color: #fff;
+  width: 40rem;
+  padding: 1.5rem 3rem;
+  height: auto;
+}
+.restaurant .container .restoList ol > li {
+  font-style: italic;
+}
+.restaurant .container .ecoPractice {
+  background-color: #262b40;
+  width: 40rem;
+  padding: 1.5rem 3rem;
+  color: #b8bedd;
+  text-align: right;
+}
+.restaurant .container .ecoPractice h2 {
+  color: #b8bedd;
+}
+
+.mission {
+  width: 100%;
+  height: auto;
+  background-color: #262b40;
+  text-align: right;
+  color: #b8bedd;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mission .mission2 {
+  width: 40rem;
+  height: auto;
+  padding: 2rem 3rem;
+  transition: all 1s;
+}
+.mission .mission2 .missionHeader {
+  border-bottom: 6px solid #ffd500;
+}
+.mission .mission2 p {
+  padding-top: 2rem;
+}
+.mission .mission2 h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+.mission .mission2 h2 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+@media (min-width: 992px) {
+  .mission {
+    width: 100%;
+    height: auto;
+    background-color: #262b40;
+    text-align: right;
+    color: #b8bedd;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mission .mission2 {
+    width: 100%;
+    height: auto;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mission .mission2 .missionHeader {
+    border-right: 6px solid #ffd500;
+    border-bottom: none;
+    padding: 10rem 4rem;
+    width: 40rem;
+    height: 40rem;
+  }
+  .mission .mission2 .missionPhar {
+    width: 40rem;
+    height: 40rem;
+    text-align: left;
+    padding: 4rem;
+  }
+}
+.reduce {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.reduce .reduce2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.reduce .pic1 {
+  width: 100%;
+  height: 25rem;
+  background: url(/images/recycled-box.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.reduce .pic2 {
+  width: 100%;
+  height: 25rem;
+  background: url(/images/saladjar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.reduce .reduce-ctn {
+  width: 100%;
+  height: 25rem;
+  padding: 1rem 1rem;
+  color: #262b40;
+}
+.reduce .reduce-ctn h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width: 992px) {
+  .reduce2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .pic1 {
+    background: url(/images/recycled-box.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1 1 15em;
+  }
+  .pic2 {
+    background: url(/images/saladjar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1 1 15em;
+  }
+  .reduce-ctn {
+    padding: 1rem 1rem;
+    color: #262b40;
+    flex: 3 3 25em;
+  }
+}
+.energy {
+  background-color: #ffd500;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 1s;
+}
+.energy .energyHead {
+  border-bottom: 5px solid #262b40;
+}
+.energy .energy-ctn {
+  width: 40rem;
+  height: auto;
+  text-align: left;
+  padding: 3rem;
+}
+.energy .energy-ctn h2 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.energy .energy-ctn p {
+  padding: 2rem 0 2rem 0;
+}
+.energy .energy-ctn a {
+  text-decoration: none;
+  color: #262b40;
+}
+.energy .energy-ctn a:hover {
+  padding: 1rem 3rem;
+  background-color: #262b40;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .energy {
+    width: 100%;
+    height: auto;
+    background-color: #ffd500;
+    text-align: left;
+    color: #262b40;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .energy .energyHead {
+    width: 40rem;
+    height: 40rem;
+    border-bottom: none;
+    border-left: 5px solid #262b40;
+    padding: 10rem 4rem;
+  }
+  .energy .energy-ctn {
+    border-bottom: none;
+    padding: 10rem 4rem;
+    width: 100%;
+    height: auto;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .energy .energyPhar {
+    width: 40rem;
+    height: 40rem;
+    text-align: right;
+    padding: 4rem;
+  }
+}
+footer {
+  width: 100%;
+  height: 35rem;
+}
+footer form {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 4rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer input, footer textarea {
+  width: 40rem;
+  margin: 1rem;
+}
+footer .btn {
+  background-color: #ffd500;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}/*# sourceMappingURL=main.css.map */

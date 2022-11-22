@@ -1,0 +1,30 @@
+.cards {
+    width: 100%;
+    height: auto;
+    padding: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+    .card-ctn {
+        text-align: center;
+        width: $big;
+        color: $tertiary;
+        padding: 3rem;
+        margin: 2rem;
+
+            h2 {
+                font-size: $font-big;
+                font-weight: $bold;
+                padding: 2rem;
+            }
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+    }
+    
+}
+

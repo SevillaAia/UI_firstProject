@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+$primary: #262b40;
+$secondary:#ffd500;
+$tertiary:#b8bedd;
+$light: #fff;
+$lighter: #fcca46;
+$big: 40rem;
+$small: 25rem;
+$line1: 6px solid #ffd500;
+$line2: 6px solid #b8bedd;
+$line3: 6px solid #262b40;
+$font-style: 'Roboto Condensed', sans-serif;
+$font-big: 5rem;
+$font-small: 2rem;
+$bold: 800;
+$bolder: 900;
+$breakpoint-tablet: 768px;
+$breakpoint-pc: 992px;
+
+@import "layout";
+@import "cards";
+@import "content";
+@import "content2";
+@import "mission";
+@import "reduce";
+@import "energy";
+@import "footer";
+@import "reset";
+
+

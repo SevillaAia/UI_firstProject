@@ -1,0 +1,52 @@
+.restaurant {
+    background-color: $secondary;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5rem 0;
+    font-style: italic;
+
+    h2 {
+        font-size: $font-big;
+        font-weight: $bold;
+        color: $primary;
+    }
+
+    .container {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        .restoList {
+            background-color: $light;
+            width: $big;
+            padding: 1.5rem 3rem;
+            height: auto;
+            
+    
+            ol > li {
+                font-style: italic;
+            }
+        }
+
+        .ecoPractice {
+            background-color: $primary;
+            width: 40rem;
+            padding: 1.5rem 3rem;
+            color: $tertiary;
+            text-align: right;
+
+            h2 {
+                color: $tertiary;
+            }
+          
+        }
+    }
+
+    }
+
+ 

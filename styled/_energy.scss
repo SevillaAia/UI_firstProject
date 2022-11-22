@@ -1,0 +1,85 @@
+.energy {
+    background-color: $secondary;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 1s;
+
+    .energyHead {
+        border-bottom: 5px solid $primary;
+    }
+
+    .energy-ctn {
+        width: $big;
+        height: auto;
+        text-align: left;
+        padding: 3rem;
+
+        h2 {
+            font-size: $font-big;
+            font-weight: bold;
+        }
+
+        p {
+            padding: 2rem 0 2rem 0;
+        }
+
+        a{
+            text-decoration: none;
+            color: $primary;
+        }
+
+        a:hover {
+            padding: 1rem 3rem;
+            background-color: $primary;
+            color: $light;
+        }
+    }
+}
+
+@media (min-width:$breakpoint-pc) {
+
+    .energy {
+        width: 100%;
+        height: auto;
+        background-color: $secondary;
+        text-align: left;
+        color: $primary;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+       
+        .energyHead {
+            width: $big;
+            height: $big;
+            border-bottom: none;
+            border-left: 5px solid $primary;
+            padding: 10rem 4rem;
+        }
+    
+            .energy-ctn {
+                border-bottom: none;
+                padding: 10rem 4rem;
+                width: 100%;
+                height: auto;
+                padding: 2rem 3rem;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+            }
+
+            .energyPhar {
+                width: $big;
+                height: $big;
+                text-align: right;
+                padding: 4rem;
+            }
+    
+    
+        }
+
+    }

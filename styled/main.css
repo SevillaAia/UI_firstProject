@@ -36,7 +36,7 @@ nav .nav-btn {
 .banner .bnr-img {
   background: url(/images/banner_img.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 76%;
   width: 40rem;
   height: 40rem;
   flex-grow: 1;
@@ -403,7 +403,7 @@ nav .nav-btn {
     width: 40rem;
     height: 40rem;
     border-bottom: none;
-    border-left: 5px solid #262b40;
+    border-left: 6px solid #262b40;
     padding: 10rem 4rem;
   }
   .energy .energy-ctn {
@@ -428,9 +428,10 @@ footer {
   height: 35rem;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 footer form {
-  width: 70%;
+  width: 40rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

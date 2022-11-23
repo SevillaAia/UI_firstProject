@@ -53,8 +53,9 @@ nav .nav-btn {
   padding: 3rem;
 }
 .banner .bnr-ctn h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 900;
+  text-shadow: 1px 1px 2px #262b40;
 }
 .banner .bnr-ctn a {
   text-decoration: none;

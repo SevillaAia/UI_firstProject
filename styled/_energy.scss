@@ -21,6 +21,7 @@
         h2 {
             font-size: $font-big;
             font-weight: bold;
+            text-shadow: 1px 1px 3px $primary;
         }
 
         p {
@@ -59,6 +60,12 @@
             border-bottom: none;
             border-left: 6px solid $primary;
             padding: 10rem 4rem;
+
+            h2 {
+                font-size: 7rem;
+                font-weight: bold;
+                text-shadow: 1px 1px 3px $primary;
+            }
         }
     
             .energy-ctn {

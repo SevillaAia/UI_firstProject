@@ -39,6 +39,7 @@
 
             font-size: $font-big;
             font-weight: $bold;
+            text-shadow: 1px 1px 3px $tertiary;
         }
     }
 }
@@ -55,7 +56,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-       
     
         .mission2 {
             width: 100%;
@@ -73,6 +73,12 @@
                 padding: 10rem 4rem;
                 width: $big;
                 height: $big;
+
+                h2 {
+                    font-size: 7rem;
+                    font-weight: $bold;
+                    text-shadow: 1px 1px 3px $tertiary;
+                }
             }
 
             .missionPhar {

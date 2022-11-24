@@ -12,6 +12,7 @@
         font-size: $font-big;
         font-weight: $bold;
         color: $primary;
+        text-shadow: 1px 1px 3px $primary;
     }
 
     .container {
@@ -42,6 +43,7 @@
 
             h2 {
                 color: $tertiary;
+                text-shadow: 1px 1px 3px $tertiary;
             }
           
         }
